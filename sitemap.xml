@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/</loc><priority>1.0</priority></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/roster.html</loc><priority>0.8</priority></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/schedule.html</loc><priority>0.8</priority></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/donate.html</loc><priority>0.6</priority></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/join.html</loc><priority>0.7</priority></url>
+</urlset>
