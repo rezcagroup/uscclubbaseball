@@ -339,6 +339,19 @@ td.num { text-align: center; }
 .roster-panel { display: none; }
 .roster-panel.is-active { display: block; }
 
+/* ---------- opponent logos (schedule tables) ---------- */
+.opp {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.opp img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 /* ---------- roster chips (name-only, no stats yet) ---------- */
 .roster-chip {
   display: flex;
