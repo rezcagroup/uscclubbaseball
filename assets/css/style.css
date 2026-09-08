@@ -106,7 +106,8 @@ p { color: var(--gray-light); margin: 0 0 1em; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 68px;
+  min-height: 68px;
+  flex-wrap: nowrap;
 }
 .brand {
   display: flex;
@@ -117,7 +118,10 @@ p { color: var(--gray-light); margin: 0 0 1em; }
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white);
+  white-space: nowrap;
+  min-width: 0;
 }
+.brand span { overflow: hidden; text-overflow: ellipsis; }
 .brand-mark {
   width: 34px;
   height: 34px;
@@ -131,6 +135,15 @@ p { color: var(--gray-light); margin: 0 0 1em; }
   color: var(--gray);
   font-weight: 600;
   margin-top: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 480px) {
+  .brand { font-size: 0.68rem; gap: 8px; }
+  .brand-mark { width: 26px; height: 26px; }
+  .brand small { font-size: 0.52rem; }
 }
 
 .main-nav {
@@ -307,6 +320,10 @@ section { padding: 64px 0; }
   text-transform: uppercase;
 }
 .panel-body { padding: 8px 22px 20px; }
+
+@media (max-width: 480px) {
+  .panel-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
 
 /* ---------- tables ---------- */
 .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
