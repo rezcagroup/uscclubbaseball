@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://gamecockclubbaseball.com/sitemap.xml
+Sitemap: https://www.gamecockclubbaseball.com/sitemap.xml

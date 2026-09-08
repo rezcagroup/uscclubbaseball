@@ -26,7 +26,7 @@ Then open http://localhost:4173
 
 ## Live site
 
-https://gamecockclubbaseball.com/ (GitHub Pages, deploys automatically on every push to `main`)
+https://www.gamecockclubbaseball.com/ (GitHub Pages, deploys automatically on every push to `main`)
 
 ## Content sources (Sept 2026)
 
