@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://rezcagroup.github.io/uscclubbaseball/sitemap.xml
+Sitemap: https://gamecockclubbaseball.com/sitemap.xml

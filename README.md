@@ -26,7 +26,7 @@ Then open http://localhost:4173
 
 ## Live site
 
-https://rezcagroup.github.io/uscclubbaseball/ (GitHub Pages, deploys automatically on every push to `main`)
+https://gamecockclubbaseball.com/ (GitHub Pages, deploys automatically on every push to `main`)
 
 ## Content sources (Sept 2026)
 
